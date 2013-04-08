@@ -125,9 +125,6 @@ Released March 21, 2013 ([diff](https://github.com/haml/haml/compare/4.0.0...4.0
 * html2haml now includes an `--html-attributes` option.
   (thanks [Stefan Natchev](https://github.com/snatchev))
 
-* Fix for inner whitespace removal in loops.
-  (thanks [Richard Michael](https://github.com/richardkmichael))
-
 * Use numeric character references rather than HTML entities when escaping
   double quotes and apostrophes in attributes. This works around some bugs in
   Internet Explorer earlier than version 9.
